@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #c5ebd6;
+    --cor2: #83E1AD;
+    --cor3: #2FA866;
+    --cor4: #215F3D;
+    --cor5: #158045;
+    --cor6: #037737;
+    --cor7: #A8C9B7;
+    --cor8: #18a758;
+    --cor9: #1680455e;
+    --cor10: #24f181;
+
+    --branco: #ffffff;
+    --preto: #000000;
+
+    --fonte-titulo: 'Titulo', Arial;
+    --fonte-pagina: 'Pagina', Arial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Titulo';
+    src: url('../fontes/Sephora\ &\ Hayden.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pagina';
+    src: url('../fontes/Roboto-Light.ttf') format('truetype');
+}
+
+body {
+    background-color: var(--cor1);
+    color: var(--branco);
+    margin: 0%;
+    text-align: justify;
+}
+
+header > h1 {
+    text-align: center;
+    font:  normal 3em var(--fonte-titulo);
+    text-shadow: 2px 2px 0px #00000056;
+}
+
+header > p {
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px #00000056;
+}
+
+header {
+    min-height: 150px;
+    padding: 10px;
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+    background-attachment: fixed;
+    color: var(--branco);
+}
+
+nav  > a {
+    color: var(--branco);
+    padding: 10px;
+    transition-duration: 0.5s;
+
+}
+
+main {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    background-color: var(--branco);
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
+    border-radius: 0px 0px 10px 10px;
+}
+
+section {
+    color: var(--preto);
+}
+
+.android > h2 {
+    text-indent: 20px;
+    color: var(--cor3);
+    font-weight: normal;
+}
+
+.destaque > h2 {
+    background-image: linear-gradient(to right, var(--cor2), var(--cor1), transparent);
+    width: 100%;
+}
+
+.android > p {
+    text-indent: 30px;
+    text-align: justify;
+    margin: 15px 0px;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#video {
+    background-color: var(--cor4);
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+#assunto {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0% auto;
+    text-indent: 20px;
+    color: var(--cor5);
+}
+
+#assunto > h3    {
+    color: var(--cor6);
+    background-color: var(--cor3);
+    padding: 10px;
+    max-width: 1000px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#assunto > p {
+    background-color: var(--cor7); 
+}
+
+#assunto > ul {
+    background-color: var(--cor7);
+    columns: 2;
+    list-style-type: none;
+}
+
+footer {
+    background-color: rgb(4, 97, 9);
+    color: var(--branco);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor10);
+}
+
+nav > a:hover {
+    background-color: var(--cor10);
+    text-decoration: none;
+    color: rgb(0, 5, 82);
+    border-radius: 10px;
+}
+
+nav > a:visited {
+    text-decoration: underline;
+    color: rgb(3, 58, 26);
+}
+
+nav > a:active {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.android a {
+    color: var(--cor8);
+    border-radius: 10px;
+
+}
+
+.destaque a {
+    background-color: var(--cor9);
+    padding: 2px 6px;
+}
+
+.android > p > a::after {
+    content: '🔗';
+}
+
+#assunto li::before {
+    content: '✓';
+    margin: 5px;
+}
+
+section > p {
+    text-align: justify;
+    font: normal normal 1.2em var(--fonte-pagina);
+}
+
+strong {
+    color: rgb(3, 71, 7);
+    font-weight: bolder;    
+}
+
+aside a::after {
+    content: '🔗';
+}
+
+aside a {
+    color: var(--cor8);
+    background-color: var(--cor9);
+    padding: 2px 6px;
+    border-radius:10px
+}
+
+.pequena {
+    max-width: 350px;
+}
+
+main a:hover {
+    background-color: var(--cor10);
+    text-decoration: none;
+    color: rgb(0, 5, 82);
+    border-radius: 10px;
+}
+
+main a:visited {
+    text-decoration: underline;
+    color: rgb(3, 58, 26);
+}
+
+main a:active {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#border  {
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+main > h1 {
+    font-size: 1.8em;
+    font-weight: normal;
+}
+

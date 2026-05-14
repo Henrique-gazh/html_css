@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font: 1em 'Roboto', 'Verdana', 'sans-serif';
+    color: #000000;
+    background-color: #e7e7e7;
+}
+
+h1 {
+    color: #B8BDFC;
+    font: normal bolder 3em 'Roboto', Verdana, sans-serif;
+}
+
+#principal{
+    text-align: center;
+    color: black;
+    font: 3em "Work Sans", sans-serif;
+}
+h2 {
+    color: rgb(255, 0, 0);
+    font:  2em 'Roboto', Verdana, sans-serif;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: orange;
+}
+
+.avançado {
+    color: red;
+}
+
+.destaque{
+    background-color: #B8BDFC;
+}
+
+a:visited {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+a:active {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    display: block;
+    background-color: #B8BDFC;
+    color: #ffffff;
+    text-decoration: underline;  }
+
+.destaque::after {
+    content: '[link]';
+}
+
+.destaque::before {
+    content: '⮕';
+}
