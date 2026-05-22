@@ -60,7 +60,6 @@ header {
     min-height: 150px;
     padding: 10px;
     background-image: linear-gradient(to top, var(--cor1), var(--cor2));
-    background-attachment: fixed;
     color: var(--branco);
 }
 
