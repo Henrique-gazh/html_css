@@ -19,7 +19,7 @@ header {
     padding-top: 20px;
     background-color: black;
     text-align: center;
-    height: 150px;
+    min-height: 150px;
 }
 
 header h1 {
@@ -44,12 +44,13 @@ header a {
 header a:hover {
     color: rgb(255, 153, 0);
     text-decoration: underline;
-}
+}   
 
 
 section.imagem > p{
     background-color: rgba(17, 17, 17, 0.5);
     max-width: 360px;
+    width: 75%;
 }
 
 section.normal {
@@ -91,4 +92,14 @@ footer {
     color: white;
     text-align: center;
     padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(255, 153, 0);
+    text-decoration: underline;
 }
