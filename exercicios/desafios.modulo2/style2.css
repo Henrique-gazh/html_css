@@ -10,6 +10,7 @@
 
 
 body {
+    min-height: 100vh;
     background-color: white;
     max-width: 800px;
     min-width: 100%;
@@ -28,6 +29,7 @@ header h1 {
     font-style: normal;
     font-size: 4em;
     color: white;
+    font-variant: small-caps;
 }
 
 header p {
@@ -39,6 +41,7 @@ header a {
     text-decoration: none;
     color: white;
     padding-top: 5px;
+    font-weight: bolder;
 }
 
 header a:hover {
@@ -46,12 +49,12 @@ header a:hover {
     text-decoration: underline;
 }   
 
-
 section.imagem > p{
     background-color: rgba(17, 17, 17, 0.5);
     max-width: 360px;
     width: 75%;
 }
+
 
 section.normal {
     font-family: "Sriracha";
@@ -60,7 +63,7 @@ section.normal {
     line-height: 2;
     font-size: 1.5em;
     padding: 50px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363) ;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
 }
 
 section.imagem {
@@ -70,6 +73,7 @@ section.imagem {
     font-style: normal;
     line-height: 2;
     font-size: 1.5em;
+    padding: 50px 0px 50px 30px;
 }
 
 #fundo01 {
