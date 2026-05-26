@@ -52,6 +52,7 @@ header a:hover {
 section.imagem > p{
     background-color: rgba(17, 17, 17, 0.5);
     max-width: 360px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
     width: 75%;
 }
 
@@ -63,7 +64,6 @@ section.normal {
     line-height: 2;
     font-size: 1.5em;
     padding: 50px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
 }
 
 section.normal p {
@@ -81,6 +81,7 @@ section.imagem {
 }
 
 #fundo01 {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
     background: white url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
     padding-top: 50px;;    
@@ -89,6 +90,7 @@ section.imagem {
 }
 
 #fundo02 {
+    box-shadow: inset 6px 6px 13px 0px black;
     background: white url(imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
     padding-top: 50px;
