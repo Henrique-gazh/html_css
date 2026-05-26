@@ -81,7 +81,7 @@ section.imagem {
 }
 
 #fundo01 {
-    background: white url(imagens/background001.jpg) center center no-repeat fixed;
+    background: white url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
     padding-top: 50px;;    
     height: 600px;
@@ -89,7 +89,7 @@ section.imagem {
 }
 
 #fundo02 {
-    background: white url(imagens/background002.jpg) center center no-repeat fixed;
+    background: white url(imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
     padding-top: 50px;
     height: 600px;
