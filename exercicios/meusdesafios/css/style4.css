@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    max-width: 800px;
+    min-width: 100%;
+    background-color: #121214;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+    padding: 25px;
+}
+
+header a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.destaque h1 {
+    color: rgb(27, 4, 153);
+    font-variant: small-caps;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.destaque p {
+    color: rgb(22, 2, 2);
+    padding-top: 10px;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+.destaque img{
+    width: 50vh;
+    display: block;
+    margin: 0px auto;
+}
+
+button {
+    display: block;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.especificacoes {
+    margin-top: 50px;
+    color: rgb(0, 21, 88);
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#especial {
+    margin: auto;
+    width: 400px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.329), rgba(33, 33, 116, 0.329));
+    min-width: none;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
