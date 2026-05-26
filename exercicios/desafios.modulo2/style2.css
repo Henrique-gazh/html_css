@@ -66,6 +66,10 @@ section.normal {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
 }
 
+section.normal p {
+    padding-bottom: 2em;
+}
+
 section.imagem {
     color: white;
     font-family: "Sriracha", sans-serif;
