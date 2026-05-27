@@ -33,6 +33,9 @@
             padding: 10px;
             background-color: lightgray;
         }
+        th.population {
+            width: 100px;
+        }
     </style>
 </head>
 <body>
@@ -41,8 +44,8 @@
         <caption>população das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>população</th>
+                <th scope="col">Estado</th>
+                <th scope="col" class="population">população</th>
             </tr>
         </thead>
         <tbody>
@@ -61,10 +64,10 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>84.352.783</strong></td>
             </tr>
-        </tfoot>
+        </tfoot>    
     </table>
 </body>
 </html>
