@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    background-color: white;
+    width:100%;
+    position: relative;
+}
+
+
+#certificado1 {
+    position: relative;
+    height: 500px;
+    background: white url('https://static.vecteezy.com/ti/vetor-gratis/p1/16071138-fundo-de-espaco-de-copia-de-tecnologia-de-robo-vetor.jpg') no-repeat center center;
+    background-size: cover;
+}
+img {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 400px;
+}
+
+#certificado2 {
+    position: relative;
+    height: 500px;
+    background: white url('https://opensource.com/sites/default/files/lead-images/header.png') no-repeat center center;
+    background-size: cover;
+}
+
+footer {
+    background-color: rgb(139, 139, 223);
+    padding: 5px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
