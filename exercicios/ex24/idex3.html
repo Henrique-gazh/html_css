@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+
+        body {
+            max-width: 500px;
+            height: auto;
+            width: 100%;
+            background-color: lightblue;
+        }
+
+        .container {
+            width: 90%;
+            margin: 50 auto;
+            border-radius: 50px;
+            box-sizing: 1px 1px 1px black;
+            overflow: hidden;
+            display: block;
+            background-color: white;
+        }
+
+        .sidebar {
+            width: 250px;
+            color: blue;
+            padding: 20px;
+        }
+        .sidebar a {
+            display: block;
+            margin-bottom: 15px;
+            padding: 12px;
+            text-decoration: none;
+        }
+        .sidebar iframe {
+            flex-grow: 1;
+            height: 550px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a href="https://charts.livegap.com/" target="name">Dashboard de Gráficos</a>
+            <a href="https://maps.google.com/maps?q=Brazil&t=k&z=4&ie=UTF8&iwloc=&output=embed" target="name">Mapa do Clima</a>
+            <a href="https://player.vimeo.com/video/76979871" target="name">Música/Vídeo do Vimeo</a>
+            <iframe src="" frameborder="0" name="name">
+                <p>Deu errado</p>
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
