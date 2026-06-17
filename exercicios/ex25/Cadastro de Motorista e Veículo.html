@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Motorista e Veículo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightslategray;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        
+        fieldset {
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 50px;
+            border-color: black;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" autocomplete="on" class="form">
+        <fieldset>
+            <legend>Dados do Condutor</legend>
+
+            <label for="iname">Nome: </label>
+            <input type="text" name="name" id="iname" required autocomplete="username" placeholder="Nome"><br>
+
+            <label for="itel">Telefone: </label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel"  pattern="^\(\d{2}\)\s?\d{4,5}-\d{4}$" required placeholder="(11) 99999-9999"><br>
+
+            <label for="idata">Data: </label>
+            <input type="month" name="data" id="idata" required value="2026-06">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Categoria da CNH</legend>
+            
+            <input type="radio" name="cnh" id="b" value="B">    
+            <label for="b">B</label><br>
+
+            <input type="radio" name="cnh" id="c" value="C">
+            <label for="c">C</label><br>
+
+            <input type="radio" name="cnh" id="d" value="D">
+            <label for="d">D</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Equipamentos de Segurança</legend>
+
+            <input type="checkbox" name="colete" id="icolete" checked value="colete">
+            <label for="icolete">Colete Refletivo</label><br>
+
+            <input type="checkbox" name="bota" id="ibota" value="bota">
+            <label for="ibota">Bota de Bico de Aço</label><br>
+
+
+            <input type="checkbox" name="protetor" id="iprotetor" value="Protetor">
+            <label for="iprotetor">Protetor Auricular</label>
+        </fieldset>
+
+        <p class="botoes">
+            <input type="submit" value="Salvar Cadastro">
+            <input type="reset" value="Limpar Formulário">
+        </p>
+    </form>
+</body>
+</html>

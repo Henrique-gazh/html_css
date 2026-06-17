@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        #dados {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" autocomplete="on">
+
+        <fieldset id="dados">
+            <legend>Dados de Acesso</legend>
+
+            <label for="iemail">Gmail: </label>
+            <input type="email" name="email" id="iemail"  required autocomplete="email"><br>
+
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required autocomplete="current-password">
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required autocomplete="username"><br>
+
+            <label for="itel">Telefone: </label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel"  pattern="^\(\d{2}\)\s?\d{4,5}-\d{4}$" required placeholder="(11) 99999-9999"><br>
+
+            <label for="ida">Nascimento: </label>
+            <input type="date" name="da" id="ida" required autocomplete="data"><br>
+
+            <input type="radio" name="sexo" id="isma" required value="M">
+            <label for="isma">Masculino</label>
+
+            <input type="radio" name="sexo" id="ife" required value="F">
+            <label for="ife">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Interesses</legend>
+
+            <input type="checkbox" name="mat" id="imat"  value="Matematica">
+            <label for="imat">Matematica</label><br>
+
+            <input type="checkbox" name="pot" id="ipot"  value="Portugues">
+            <label for="ipot">Portugues</label><br>
+
+            <input type="checkbox" name="cien" id="icien"  value="Ciencias">
+            <label for="icien">Ciencias</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
