@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="" method="post" autocomplete="on"></form>
+    <p>
+        <label for="iest">Estado: </label>
+        <select name="estado" id="iest">
+
+            <option value="Escolha" selected> --- Escolha ---</option>
+            <optgroup label="Regiao Sudeste" >
+                <option value="MG">Minas Gerais</option>
+                <option value="Rj">Rio de Janeiro</option>
+                <option value="Sp">Sao Paulo</option>
+            </optgroup>
+
+            <optgroup label="Regiao Nordeste">
+                <option value="MA">Maranhao</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande do Noirte</option>
+            </optgroup>
+        </select>
+    </p>
+
+    <p>
+        <label for="iprof">Profissao: </label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="ADM">administrador</option>
+            <option value="Dev">Desenvolvedor</option>
+            <option value="Prof">Professor</option>
+        </datalist>
+    </p>
+
+    <p>
+        <textarea name="mgs" id="imgs" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+        <label for="imgs">Mensagem: </label>
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="limpar">
+    </p>
+</body>
+</html>
