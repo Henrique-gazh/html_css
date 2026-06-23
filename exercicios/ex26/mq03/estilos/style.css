@@ -1,5 +1,8 @@
 @charset "UTF-8";
-        /* declarações gerais */
+
+    /* declarações gerais */
+    @media all {
+    
         * {
             margin: 0px;
             padding: 0px;
@@ -21,6 +24,7 @@
             padding: 10px;
 
         }
+    }
 
         /* declarações retrato */
         @media screen and (orientation: portrait) {
