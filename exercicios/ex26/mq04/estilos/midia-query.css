@@ -23,7 +23,7 @@ Grandes telas: acima de 1200px
     }
 
     main::after {
-        content: "Hiro.com.br";
+        content: "Hiro.com.br"; 
         text-decoration: overline;
     }
 
